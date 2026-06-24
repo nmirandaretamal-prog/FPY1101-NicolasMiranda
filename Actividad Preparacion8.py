@@ -76,12 +76,14 @@ while biblioteca_on:
                 print("el libro no existe o en ingreso fue invalido")
 
     if accion == 3:
-
-        print("===================")
-        print("  ESTADISTICAS")
-        print("===================")
-        print(f"Total de prestamos: {prestamos}")
-        print(f"Ultimo libro solicitado: {ultimo_libro}\n")
+        print("\n====================================")
+        print("ESTADÍSTICAS DE PRÉSTAMOS")
+        print("====================================")
+        print(f"Cantidad de libros prestados: {prestamos}")
+    if ultimo_libro is not None:
+        print(f"Último libro arrendado: {ultimo_libro}")
+    else:
+        print("Aún no se han registrado préstamos.")
 
     if accion == 4:
         print("Gracias por venir")
