@@ -40,3 +40,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
+    # Mejora: Se añadió este comentario para control de versiones en GitHub
